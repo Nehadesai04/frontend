@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BOGO Offer</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1><span class="line"></span><span class="title-text">YAY! It's BOGO</span><span class="line"></span></h1>
+
+    <form>
+      <div class="box" data-price="10">
+        <div class="header">
+          <div class="left">
+            <input type="radio" name="unit" />
+            <span class="unit-label">1 Unit</span>
+            <span class="tag pink">10% Off</span>
+          </div>
+          <div class="right">
+            <span class="price">$10.00 USD</span>
+            <span class="strike">$24.00 USD</span>
+          </div>
+        </div>
+        <div class="content hidden">
+          <p class="subtext">Standard Price</p>
+          <div class="row">
+            <label>#1</label>
+            <select class="size-select"><option>Size</option></select>
+            <select class="color-select"><option>Colour</option></select>
+          </div>
+        </div>
+      </div>
+
+      <div class="box popular selected" data-price="18">
+        <div class="header">
+          <div class="left">
+            <input type="radio" name="unit" checked />
+            <span class="unit-label">2 Unit</span>
+            <span class="tag pink">20% Off</span>
+          </div>
+          <div class="right">
+            <span class="price">$18.00 USD</span>
+            <span class="strike">$24.00 USD</span>
+          </div>
+          <div class="badge">MOST POPULAR</div>
+        </div>
+        <div class="content">
+          <div class="row">
+            <label>#1</label>
+            <select class="size-select"><option>Size</option></select>
+            <select class="color-select"><option>Colour</option></select>
+          </div>
+          <div class="row">
+            <label>#2</label>
+            <select class="size-select"><option>Size</option></select>
+            <select class="color-select"><option>Colour</option></select>
+          </div>
+        </div>
+      </div>
+
+      <div class="box" data-price="24">
+        <div class="header">
+          <div class="left">
+            <input type="radio" name="unit" />
+            <span class="unit-label">3 Unit</span>
+            <span class="tag pink">30% Off</span>
+          </div>
+          <div class="right">
+            <span class="price">$24.00 USD</span>
+            <span class="strike">$24.00 USD</span>
+          </div>
+        </div>
+        <div class="content hidden">
+          <div class="row">
+            <label>#1</label>
+            <select class="size-select"><option>Size</option></select>
+            <select class="color-select"><option>Colour</option></select>
+          </div>
+          <div class="row">
+            <label>#2</label>
+            <select class="size-select"><option>Size</option></select>
+            <select class="color-select"><option>Colour</option></select>
+          </div>
+          <div class="row">
+            <label>#3</label>
+            <select class="size-select"><option>Size</option></select>
+            <select class="color-select"><option>Colour</option></select>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <div class="footer">
+      <div class="footer-row">
+        <p class="delivery">Free Delivery</p>
+        <p class="total">Total : $18.00 USD</p>
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+      <p class="powered">© Powered by Pumper</p>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
